@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/web/roboto.woff") format("woff"),
+    url("fonts/web/roboto.woff2") format("woff2"),
+    url("fonts/web/robotobold.woff") format("woff"),
+    url("fonts/web/robotobold.woff2") format("woff2"),
+    url("fonts/web/robotomedium.woff") format("woff"),
+    url("fonts/web/robotomedium.woff2") format("woff2");      
+}
+.site-navigation {
+    padding: 0px;
+    height: 40px;
+    list-style: none;
+    margin-left: 10px;
+    /* float: left; */
+    /* float: none !important; */
+    display: flex;/* делаем список в ряд */
+}
+ul {
+    list-style: none; /*убирает стандартные точки списка */
+}
+  body { font-family: 'Roboto'; 
+}
+ .main-navigation {
+      background-color: #EEEEEE;
+}
