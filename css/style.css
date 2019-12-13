@@ -13,17 +13,40 @@
 .site-navigation {
     padding: 0px;
     height: 40px;
-    list-style: none;
     margin-left: 10px;
-    /* float: left; */
-    /* float: none !important; */
-    display: flex;/* делаем список в ряд */
+}
+.site-navigation li {
+    display: inline-block;
+}
+.site-navigation a {
+    display: block;
+    padding: 10px 40px;
 }
 ul {
     list-style: none; /*убирает стандартные точки списка */
 }
-  body { font-family: 'Roboto'; 
+  body { 
+      font-family: 'Roboto'; 
 }
  .main-navigation {
       background-color: #EEEEEE;
+      padding-left: 40px; 
+}
+.first-button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #fb565a;
+    background-color: #fb565a;
+    text-transform: uppercase;  
+    color: white; 
+}
+.second-button {
+    text-transform: uppercase;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fb565a;
+    background-color: #fb565a;
+    text-transform: uppercase;  
+    color: white;
+
 }
