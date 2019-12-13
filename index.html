@@ -6,29 +6,60 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="main-navigation">
+    <header class="header">
         <a class="main-header-logo">
             <img src="images/icons/nerds-logo.svg" alt="Наш логотип Nerds"> 
         </a>
 
-        <h1>Долго, дорого,<br> скрупулёзно.</h1>
-        <p class="add-information">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <button class="first-button">Узнать больше</button>
-
-        <ul class="site-navigation">
-            <li><a href="studio.html">Студия </a></li>
-            <li><a href="clients.html">Клиенты</a></li>
-            <li><a href="shop.html">Магазин</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+        <nav class="main-navigation">
+            <ul class="site-navigation">
+                <li><a href="studio.html">Студия </a></li>
+                <li><a href="clients.html">Клиенты</a></li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
 
         <ul class="cart-navigation">
             <li><a href="basket.html">Корзина</a></li>            
         </ul>
-    </nav>
+    </header>
 
-    <main class="conteiner">
-        <h1 class="visually-hidden">Nerds</h1><!-- it will be invisible -->
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="slider-container">
+                <div class="slider-item active">
+                    <h1>Долго, дорого,<br> скрупулёзно.</h1>
+                    <p class="add-information">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                    <button class="first-button">Узнать больше</button>
+                </div>
+        
+                <div class="slider-item">
+
+                </div>
+        
+                <div class="slider-item">
+
+                </div>
+            </div>
+        
+            <ul class="slides-switches">
+                <li class="slide-radio">
+                    <div class="slide-btn"></div>
+                </li>
+                <li class="slide-radio">
+                    <div class="slide-btn"></div>
+                </li>
+                <li class="slide-radio">
+                    <div class="slide-btn"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="container">
+        <h1 class="visually-hidden">Nerds</h1>
+
         <section class="our-jobs">
             <h2 class="visually-hidden">Your orders</h2>
             <ul class="our-jobs-list">
@@ -40,7 +71,7 @@
                 <li class="our-jobs-item">
                     <h3>Приложения</h3>
                     <p>Покорите топ-10 приложений в AppStore и GooglePlay</p>
-                <button class="second-button">Заказать</span>
+                    <button class="second-button">Заказать</span>
                 </li>
                 <li class="our-jobs-item">
                     <h3>Презентации</h3>
@@ -48,47 +79,48 @@
                     <button class="second-button">Заказать</span>  
                 </li>     
             </ul>
-            </section>
-            <h2>Мы - маленькая, но гордая<br>
-                    дизайн-студия из Краснодара.</h2>
-                    <p class="add-information">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-            
-                    <section class="orders">
-                <h3 class="orders-title">Выполняем заказы на разработку:</h3>
-                <ul class="orders-item">
-                    <li class="orders-item-list">Веб-сайтов любой сложности</li>
-                    <li class="orders-item-list">Мобильных приложений для iOS и Android</li>
-                    <li class="orders-item-list">Слайдшоу и видео для корпоративных презентаций</li>
-                </ul>
-            </section>
+        </section>
 
-            <section class="stats">
-                <figure>
-                    <figcaption>Наша картинка Nerds</figcaption>
-                </figure>
+        <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
+        <p class="add-information">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+    
+        <section class="orders">
+            <h3 class="orders-title">Выполняем заказы на разработку:</h3>
+            <ul class="orders-item">
+                <li class="orders-item-list">Веб-сайтов любой сложности</li>
+                <li class="orders-item-list">Мобильных приложений для iOS и Android</li>
+                <li class="orders-item-list">Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+        </section>
 
-                <p class="stats-frase">С 2004 года любим точность во всем:</p>
+        <section class="stats">
+            <figure>
+                <figcaption>Наша картинка Nerds</figcaption>
+            </figure>
 
-                <ul class="stats-list">
-                    <li class="stats-numbers"><h2>146<sup>%</sup></h2>
-                        <ul>
-                            <li class="stats-item">Уровень самоотдачи</li>
-                        </ul>    
-                    </li>
-                    <li class="stats-numbers"><h2>100<sup>%</sup></h2>
-                        <ul>
-                            <li class="stats-item">Соблюдение сроков</li>
-                        </ul>    
-                    </li>
-                    <li class="stats-numbers"><h2>50<sup>%</sup></h2>
-                        <ul>
-                            <li class="stats-item">Минимальная предоплата</li>            
-                        </ul>
-                    </li>                        
-                </ul>
-            </section>
+            <p class="stats-frase">С 2004 года любим точность во всем:</p>
+
+            <ul class="stats-list">
+                <li class="stats-numbers"><h2>146<sup>%</sup></h2>
+                    <ul>
+                        <li class="stats-item">Уровень самоотдачи</li>
+                    </ul>    
+                </li>
+                <li class="stats-numbers"><h2>100<sup>%</sup></h2>
+                    <ul>
+                        <li class="stats-item">Соблюдение сроков</li>
+                    </ul>    
+                </li>
+                <li class="stats-numbers"><h2>50<sup>%</sup></h2>
+                    <ul>
+                        <li class="stats-item">Минимальная предоплата</li>            
+                    </ul>
+                </li>                        
+            </ul>
+        </section>
     </main>
-    <footer>
+
+    <footer class="footer">
         <section class="address">
             <h2>Nerds design studio</h2>
             <section class="modal modal-map">
@@ -98,6 +130,7 @@
             <!--<img href="" alt="Map with our location">-->
             <button class="second-button">Напишите нам</span>
         </section>
+
         <h2 class="visually-hidden">Наш футер</h2>
         <section class="footer-social">
             <ul class="footer-icons">
@@ -106,6 +139,7 @@
                 <li><a class="social-button" href="#">Instagram</a></li>
             </ul>
         </section>
+        
         <div class="footer-frase">
             <b>Давайте дружить, это выгодно!</b>
             <p class="stats-frase">Скидка 10% для друзей из социальных сетей.</p>

@@ -4,34 +4,41 @@
     font-weight: 400;
     font-display: swap;
     src: url("fonts/web/roboto.woff") format("woff"),
-    url("fonts/web/roboto.woff2") format("woff2"),
-    url("fonts/web/robotobold.woff") format("woff"),
-    url("fonts/web/robotobold.woff2") format("woff2"),
-    url("fonts/web/robotomedium.woff") format("woff"),
-    url("fonts/web/robotomedium.woff2") format("woff2");      
+         url("fonts/web/roboto.woff2") format("woff2"),
+         url("fonts/web/robotobold.woff") format("woff"),
+         url("fonts/web/robotobold.woff2") format("woff2"),
+         url("fonts/web/robotomedium.woff") format("woff"),
+         url("fonts/web/robotomedium.woff2") format("woff2");      
 }
+
 .site-navigation {
     padding: 0px;
     height: 40px;
     margin-left: 10px;
 }
+
 .site-navigation li {
     display: inline-block;
 }
+
 .site-navigation a {
     display: block;
     padding: 10px 40px;
 }
+
 ul {
     list-style: none; /*убирает стандартные точки списка */
 }
-  body { 
-      font-family: 'Roboto'; 
+
+body { 
+    font-family: 'Roboto'; 
 }
- .main-navigation {
-      background-color: #EEEEEE;
-      padding-left: 40px; 
+
+.main-navigation {
+    background-color: #EEEEEE;
+    padding-left: 40px; 
 }
+
 .first-button {
     width: 150px;
     height: 40px;
@@ -40,6 +47,7 @@ ul {
     text-transform: uppercase;  
     color: white; 
 }
+
 .second-button {
     text-transform: uppercase;
     width: 120px;
@@ -48,5 +56,12 @@ ul {
     background-color: #fb565a;
     text-transform: uppercase;  
     color: white;
+}
 
+.slider-item {
+    display: none;
+}
+
+.slider-item.active {
+    display: block;
 }
