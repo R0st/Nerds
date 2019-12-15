@@ -8,12 +8,7 @@
   }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    /*https://html5.by/blog/flexbox/*/
-  }
+}
 
 @font-face {
     font-family: 'Roboto';
@@ -82,4 +77,12 @@ body {
 
 .slider-item.active {
     display: block;
+}
+.our-jobs-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-jobs-item-h3 {
+    text-transform: uppercase;
 }
