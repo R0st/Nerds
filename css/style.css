@@ -76,7 +76,8 @@ body {
 }
 
 .slider-item.active {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .our-jobs-list {
     display: flex;
@@ -85,4 +86,8 @@ body {
 
 .our-jobs-item-h3 {
     text-transform: uppercase;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
 }
