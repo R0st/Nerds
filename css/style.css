@@ -60,33 +60,32 @@ body {
     padding-left: 40px; 
 }
 
-.first-button {
+.button {
     width: 150px;
     height: 40px;
     border: 1px solid #fb565a;
     background-color: #fb565a;
     text-transform: uppercase;  
     color: #fff; 
-    margin: 40px 0 80px 0;
+    cursor: pointer;    
 }
 
-.second-button {
-    text-transform: uppercase;
-    width: 120px;
-    height: 40px;
-    border: 1px solid #fb565a;
-    background-color: #fb565a;
-    text-transform: uppercase;  
-    color: #fff;
+.green {
+    background-color: #00ca74; 
+    border: 1px solid #00ca74;
 }
+
+.yellow {
+    background-color:#efc849; 
+    border: 1px solid #efc849;
+}
+
+
 
 .slider-item {
-    display: none;
-}
-
-.slider-item.active {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .our-jobs-list {
@@ -102,3 +101,15 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.slider-container {
+    display: none;
+}
+
+.slider-container-active{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
